@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Solution Link](https://github.com/lindseydortch/blog-preview-card-nextjs)
+- Live Site URL: [Deployed Netlify Site](https://blog-preview-card-nextjs.netlify.app/)
 
 ## My process
 
