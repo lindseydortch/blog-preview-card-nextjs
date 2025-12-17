@@ -1,0 +1,17 @@
+@use "@/app/_styles/variables" as *;
+
+.user {
+  display: flex;
+  align-items: center;
+  column-gap: $spacing-med;
+}
+
+.cardUserImgContainer {
+  position: relative;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.userName {
+  @include textPreset3Bold();
+}

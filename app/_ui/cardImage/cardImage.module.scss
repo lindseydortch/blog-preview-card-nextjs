@@ -1,0 +1,9 @@
+@use "@/app/_styles/variables" as *;
+
+.cardImageContainer {
+  position: relative;
+  height: 20rem;
+  width: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}

@@ -1,0 +1,55 @@
+@use "@/app/_styles/variables" as *;
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: $spacing-med;
+  color: $gray950;
+}
+
+.button {
+  padding: $spacing-xs $spacing-med;
+  background-color: $yellow;
+  display: inline-block;
+  border-radius: 0.4rem;
+
+  p {
+    @include textPreset3Bold();
+    display: inline;
+    color: inherit;
+  }
+}
+
+.published {
+  h3 {
+    @include textPreset3Medium();
+    color: inherit;
+  }
+}
+
+.course {
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
+
+  h1 {
+    @include textPreset1Bold();
+    color: inherit;
+  }
+}
+
+.overview {
+  p {
+    @include textPreset2Medium();
+    color: $gray500;
+    max-width: 33.6rem;
+    min-width: 27.9rem;
+  }
+}
