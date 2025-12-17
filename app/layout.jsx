@@ -1,9 +1,9 @@
-import { Outfit } from "next/font/google";
+import { Figtree } from "next/font/google";
 import "@/app/_styles/globals.scss";
 import Attribution from "@/app/_components/attribution/Attribution";
 
-const outfit = Outfit({
-  weight: ["400", "700"]
+const figtree = Figtree({
+  weight: ["500", "800"]
 });
 
 export const metadata = {
@@ -17,10 +17,10 @@ export default function RootLayout({ children }) {
       <head>
         <link
           rel="icon"
-          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👾</text></svg>"
+          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👩🏽‍💻</text></svg>"
         />
       </head>
-      <body className={`${outfit.variable}`}>
+      <body className={`${figtree.variable}`}>
         <main>{children}</main>
         <footer>
           <Attribution />
